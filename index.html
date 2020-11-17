@@ -9,8 +9,8 @@
  <!--шапка сайта-->
     <header>
         <nav>
-            <a href="http://info@devstudio.com/" target="_blank" rel="noopener noreferrer">
-            <img src="./img/WebStudio.svg" alt="Логотип компании"></a>
+            <a href="http://info@devstudio.com/" target="_blank" rel="noopener noreferrer" aria-label="Логотип компании">
+            <span lang="en">WebStudio</span> </a>
             <ul>
                 <li><a href="#">Студия</a></li>
                 <li><a href="#">Портфолио</a></li>
@@ -34,7 +34,7 @@
     </main>
  <!---Преимущества-->
     <section>
-        <h2>Преимущества</h2> <!--заголовок надо будет спрятать возможно с поощью display:none;...-->
+        <h2 hidden>Преимущества</h2> <!--заголовок надо будет спрятать возможно с поощью display:none;...-->
         <ul>
             <li>
                 <h3>Внимание к деталям</h3>
@@ -90,13 +90,17 @@
  <!---Подвал-->
     <footer>
          <section>
-             <h2>Адрес</h2><!--заголовок надо будет спрятать возможно с поощью дисплей...-->
-            <a href="http://info@devstudio.com/" target="_blank" rel="noopener noreferrer">
-            <img src="./img/WebStudio.svg" alt="Логотип компании"></a>
+             <h2 hidden>Адрес</h2><!--заголовок надо будет спрятать возможно с поощью дисплей...-->
+            <a href="http://info@devstudio.com/" target="_blank" rel="noopener noreferrer" aria-label="Логотип компании">
+            <span lang="en">WebStudio</span> </a>
             <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="http://mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer">info@devstudio.com</a><br>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <ul>
+                    <li><a href="https://goo.gl/maps/a4D9c5vPyhM3tE7p7" target="_blank" rel="noopener noreferrer">
+                        г. Киев, пр-т Леси
+                        Украинки, 26</a></li>
+                    <li><a href="http://mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>      
                 <!---подчеркивание уберу text decoration non-->
             </address>
      </section>
